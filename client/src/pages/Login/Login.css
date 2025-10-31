@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+.login-page {
+	background: #899878;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.login-container {
+	background: #121113;
+	display: flex;
+	width: 800px;
+	height: 360px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+}
+
+.login-left {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	background: #232725;
+}
+
+.login-right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	background: #121113;
+}
+
+.login-header {
+	height: 76px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.login-left .login-header {
+	background: #232725;
+}
+
+.login-right .login-header {
+	background: #121113;
+}
+
+.login-logo-row {
+	display: flex;
+	align-items: center;
+	padding-left: 24px;
+}
+
+.login-logo-square {
+	width: 36px;
+	height: 36px;
+	background: #F7F7F2;
+	margin-right: 16px;
+	border-radius: 4px;
+}
+
+.login-title {
+	color: #F7F7F2;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+}
+
+.login-form-title {
+	color: #F7F7F2;
+	font-size: 2rem;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.login-image-wrapper {
+	flex: 1;
+	overflow: hidden;
+}
+
+.login-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 100% 78%;
+	display: block;
+	opacity: 90%;
+}
+
+.login-form-container {
+	flex: 1;
+	padding: 0 40px 32px;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	height: 100%;
+}
+
+.login-form-group {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.login-label {
+	color: #F7F7F2;
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+}
+
+.login-input {
+	height: 36px;
+	padding: 8px 12px;
+	background: #F7F7F2;
+	border: none;
+	border-radius: 2px;
+	font-size: 0.95rem;
+	font-family: "Montserrat", sans-serif;
+}
+
+.login-input:focus {
+	outline: none;
+	box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.login-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2px;
+}
+
+.login-link {
+	color: #F7F7F2;
+	font-size: 0.8rem;
+	text-decoration: underline;
+	font-weight: 600;
+	font-family: "Montserrat", sans-serif;
+	opacity: 0.8;
+	transition: opacity 0.2s;
+}
+
+.login-link:hover {
+	opacity: 1;
+}
+
+.login-btn {
+	background: #414C47;
+	color: #F7F7F2;
+	border: none;
+	border-radius: 2px;
+	padding: 10px 32px;
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	cursor: pointer;
+	margin-top: 10px;
+	align-self: center;
+	transition: background-color 0.2s;
+}
+
+.login-btn:hover {
+	background: #3d4a3d;
+}
